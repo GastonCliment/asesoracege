@@ -1,0 +1,25 @@
+@media only screen and (max-width: 500px) {
+    .btn-outline-dark {
+        display: flex;
+        flex-direction: row;
+        width: 60%;
+        font-size: 70%; 
+    }
+
+    .botonHerramientasUtilizadas {
+        display: none;
+    }
+
+    .imagenes {
+        display: none;
+    }
+
+    #herramientasUtilizadas {
+        display: none;
+    }
+
+    body {
+        display: block;
+    }
+
+}

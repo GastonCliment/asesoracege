@@ -1,0 +1,159 @@
+header {
+    padding: 10px 10px 10px 0px;
+    text-align: center;
+}
+
+body
+ {
+    font-style: oblique;
+    font-family: 'New Tegomin', serif;
+    background: -moz-linear-gradient(cima, #CE5937 0%, #1C6EA4 58%, #C59237 100%);
+    background: -webkit-linear-gradient(cima, #CE5937 0%, #1C6EA4 58%, #C59237 100%);
+    background: linear-gradient(to right, #CE5937 0%, #1C6EA4 58%, #C59237 100%);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-areas: 
+    "header header header header"
+    "quienesSomos quienesSomos quienesSomos quienesSomos"
+    "serviciosOfrecidos serviciosOfrecidos serviciosOfrecidos serviciosOfrecidos"
+    "herramientasUtilizadas herramientasUtilizadas herramientasUtilizadas herramientasUtilizadas"
+    "trabajosRealizados trabajosRealizados trabajosRealizados trabajosRealizados"
+    "contacto contacto contacto contacto";
+}
+
+
+header, #quienesSomos, #serviciosOfrecidos, #trabajosRealizados {
+    background: -moz-linear-gradient(cima, #CE5937 0%, #1C6EA4 56%, #C59237 100%);
+    background: -webkit-linear-gradient(cima, #CE5937 0%, #1C6EA4 56%, #C59237 100%);
+    background: linear-gradient(to right, #CE5937 0%, #1C6EA4 56%, #C59237 100%);
+}
+
+#logo {
+    border-radius: 5em;
+}
+
+
+h5
+{
+    color: rgb(238, 235, 64);
+    text-align: right;
+}
+
+h3, h1{
+    color: rgb(255, 251, 0);
+}
+
+h4 
+{
+    color: rgb(226, 208, 8);
+}
+
+p
+{
+    text-align: justify;
+    color: rgb(238, 235, 64);
+    font-style: oblique;
+    line-height: 25px; 
+    text-indent: 15px;
+}
+
+#carouselExampleSlidesOnly {
+    width: 70%;
+    padding: 40px;
+    position: relativ;
+    left: 15%;
+}
+
+.btn-outline-dark {
+    border-radius: 100px;
+    background-color: #8b4a2c;
+    display: inline-block;
+    width: 15vw;
+    margin-top: 2vw;
+    border: none;
+    color: rgb(255, 255, 255); 
+    text-decoration: none; 
+}
+
+a {
+    color: rgb(255, 255, 255); 
+    text-decoration: none;  
+}
+
+
+
+article {
+    padding: 5px 20px 20px 20px;
+}
+
+footer{
+    padding: 0px 10px 10px 20px;
+    border: 1px none rgb(44, 44, 38);
+    background-color: rgb(44, 44, 38);
+}
+
+#herramientasUtilizadas {
+    height: 185vh;
+    width: 60vw;
+    color: rgb(238, 235, 64);
+    background: -moz-linear-gradient(cima, #CE5937 0%, #1C6EA4 100%, #C59237 100%);
+    background: -webkit-linear-gradient(cima, #CE5937 0%, #1C6EA4 100%, #C59237 100%);
+    background: linear-gradient(to right, #CE5937 0%, #1C6EA4 100%, #C59237 100%);
+}
+
+
+.imagenes{
+    position: relative;
+    display: block;
+    left: 110%;
+    top: 10%;
+    border-radius: 10px;
+}
+
+.imagenes:hover {
+    animation: escalar 2s infinite;
+}
+
+@keyframes escalar {
+    50% {
+        transform: scale(2) skew(50deg) rotate(360deg);
+    }
+}
+
+
+.herramientasUtilizadas{
+    margin-top: -200px;
+}
+
+#logoWhatsapp{
+    position: relative;
+    left: 5%;
+}
+
+.header {
+    grid-area: header;
+}
+
+#quienesSomos {
+    grid-area: quienesSomos;
+}
+
+#serviciosOfrecidos {
+    grid-area: serviciosOfrecidos;
+}
+
+#herramientasUtilidadas {
+    grid-area: herramientasUtilizadas;
+}
+
+#trabajosRealizados {
+    grid-area: trabajosRealizados;
+}
+
+#contacto {
+    grid-area: contacto;
+    background: -moz-linear-gradient(cima, #170801 0%, #6A7372 50%, #171106 100%);
+    background: -webkit-linear-gradient(cima, #170801 0%, #6A7372 50%, #171106 100%);
+    background: linear-gradient(to right, #170801 0%, #6A7372 50%, #171106 100%);
+}
+
